@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zaměstnanci</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row text-dark text-center">
+      <h1>Zaměstnanci</h1>
+      <div class="row col-4 mx-auto mt-2">
+        <hr />
+      </div>
+      <div class="row mx-auto bg-warning pt-3 pb-3">
+        <img src="src/person1.jpg" alt="" style="max-width: 200px; max-height: 180px"
+          class="rounded mx-auto d-block pb-2" id="person-image" />
+        <h3 id="employee-name" class="fw-normal">
+          Jana Nováková
+        </h3>
+        <p id="job" class="fw-bold">Manager</p>
+        <p id="information">
+          Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Architecto fugit, officiis
+          dolorum excepturi libero unde amet voluptates
+          eligendi.
+        </p>
+        <div class="pb-3">
+          <button type="button" class="btn btn-primary btn-sm col-4 previous-btn">
+            Předchozí
+          </button>
+          <button type="button" class="btn btn-primary btn-sm col-4 next-btn">
+            Další
+          </button>
+        </div>
+        <div>
+          <button type="button" class="btn btn-info btn-sm col-5 fw-bold random-btn">Náhodný</button>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>

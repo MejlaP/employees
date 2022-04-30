@@ -1,0 +1,26 @@
+body {
+  background: lightcyan;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 550px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+hr {
+  border: 2px solid red;
+}
+
+#employee-name {
+  text-transform: capitalize;
+}
+
+#job {
+  text-transform: uppercase;
+}
