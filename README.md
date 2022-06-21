@@ -1,5 +1,5 @@
 # Karty zaměstnanců
 
-## Slouží k zobrazování a procházení informací k zaměstnancům
+## Slouží k zobrazení evidence zaměstnanců a procházení informací k nim
 
 ### Vanilla JavaScript
